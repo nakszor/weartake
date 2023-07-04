@@ -1,0 +1,249 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: #fFFFFF;
+    width: 100%;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+    color: #242424;
+}
+.menu-flex{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 40px;
+}
+.menu-column{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+    
+}
+.menu-column.menu-second-column{
+    justify-content: flex-end;
+}
+.lista{
+    margin-right: 70px;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.lista-itens{
+    text-decoration: none;
+    color: #242424;
+}
+.lista-itens:hover{
+   color: grey;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 950px;
+}
+.lista-cards{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.card-estilo{
+justify-content: center;
+width: 280px;
+gap: 10px;
+border: solid 2px #f5f5f5;
+}
+.card-estilo:hover{
+    border: solid 2px #2E245E;
+}
+.card-img{
+    width: 296px;
+    height: 154px;
+}
+.div-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+card-content{
+    height: 254px;
+}
+.categoria{
+    margin-top: 15px;
+    margin-left: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f5f5f5;
+    width: 69px;
+    height: 24px;
+    background-color: #37268c;
+    font-size: 12px;
+}
+.nome-produto{
+    margin-top: 9px;
+    margin-left: 9px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #292929;
+}
+.texto-descricao{
+    margin-left: 9px;
+    width: 255px;
+    height: 72px;
+    color: #242424;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.card-price{
+    margin-left: 9px;
+    color: #2E245E;
+    font-weight: 600;
+}
+.card-button{
+    
+    text-align: center;
+    margin-bottom: 15px;
+}
+.card-button button{
+    background-color: #fFFFFF;
+    border: none;
+}
+.card-button button:hover{
+    color: grey;
+}
+.form{
+    margin-top: 15px;
+    margin-left: 9px;
+}
+.input{
+    width: 170px;
+    height: 40px;
+    border: none;
+    background-color: #f5f5f5;
+    border: solid 1px transparent;
+}
+.input:hover{
+    border: 1px solid #37268c;
+}
+.button{
+    height: 44px;
+    border: none;
+    background-color: #37268c;
+    color: #fFFFFF;
+}
+.button:hover{
+    background-color: #382c75;
+    
+}
+.carrinho{
+    margin-left: 9px;
+}
+.carrinho-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    background-color: #37268c;
+    color: #fFFFFF;
+    height: 40px;
+    font-size: 11px;
+    width: 250px;
+}
+.carrinho-space{
+    background-color: #f5f5f5;
+    max-width: 250px;
+    max-height: 300px;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.carrinho-space ul li{
+    list-style: none;
+}
+
+.card-content-carrinho{
+    max-width: 230px;
+    width: 90px;
+    max-height: 50px;
+}
+.div-img-carrinho img{
+    width: 70px;
+    height: 60px;
+    margin-right: 5px;
+}
+.div-img-carrinho{
+    background-color: #fFFFFF;
+}
+.nome-produto-carrinho{
+    max-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nome-produto-carrinho p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.card-price-carrinho{
+ max-height: 20px;
+ margin-left: 12px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.card-price-carrinho p{
+    font-size: 12px;
+    width: 70px;
+   
+}
+.card-button-carrinho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+}
+
+.card-button-carrinho button{
+    background-color: transparent;
+    width: 50px;
+    border: transparent 1px;
+    color: gray;
+}
+.card-button-carrinho button:hover{
+    color: red;
+}
+.card-estilo-carrinho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    max-width: 260px;
+    border: #fFFFFF solid 1px;
+}
+.carrinho-conteudo{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    margin-left: 0px;
+}
+.tagUlCarrinho{
+    margin: 0;
+    padding: 0;
+}
